@@ -8,16 +8,16 @@ Este proyecto va a tratar como hacer un programa en kotlin basado en el famoso j
 # 1. Implementación de la estructura MVVM
 Para afrontar los problemas estructurales de mi proyecto utilicé el método MVVM para que todo estuviese separado dando modularidad y sincronía a todo el programa, aquí se puede ver un gráfico que representa el modelo MVVM
 
-![Gráfico MVVM]()
+![Gráfico MVVM](/Images_Readme/Readme_01.png)
 
 En mi programa creé tres paquetes para introducir cada parte de la estructura MVVM, un paquete Model, Otro View, y finalmente otro ViewModel, quedando un resultado como este:
 
-![Modelo MVVM]()
+![Modelo MVVM](/Images_Readme/Readme_02.png)
 
 # 2. Explicación de las clases
 Dentro de cada paquete encontramos la clase que representa cada parte de la estructura, tenemos la clase "Main", "Modelo_Juego", y "VistaModelo_Juego"
 
-![Clases MVVM]()
+![Clases MVVM](Images_Readme/Readme_03.png)
 
 ## 2.1 Clase "Main" :godmode:
 La clase Main funciona como la vista dentro de mi proyecto, aquí se encuentra toda la funcionalidad de lo que se muestra en la pantalla con los siguientes métodos:
